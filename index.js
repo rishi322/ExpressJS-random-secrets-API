@@ -13,8 +13,8 @@ app.get("/", async (req, res) => {
       secret: result.data.secret,
       user: result.data.username,
     });
-  } catch {
-    console.log(error.response.data);
+  } catch (error){
+    console.log(error);
     res.status(500);
   }
 });
