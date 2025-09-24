@@ -1,0 +1,62 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  
+}
+
+.alert {
+  font-size: 1.2rem;
+}
+
+.font1{
+    font-family:'Titan One', cursive;
+    color:white;
+    font-weight:100;
+}
+
+
+
+
+/* Form labels */
+.form-label {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #efeaea;
+
+}
+
+
+/* Textarea resizes smoothly */
+textarea.form-control {
+  resize: vertical;
+  min-height: 80px;
+  border-radius:10px;
+}
+
+
+
+/* Submit button */
+.btn-primary {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  background: #3b82f6;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.btn-primary:hover {
+  background: #2563eb;
+}
+
+.btn-primary:active {
+  transform: scale(0.98);
+}
